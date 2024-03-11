@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiseñoWeb-Agencia</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <style>
+    #titulo {
+      color: #2d88b7;
+      font-size: 50px;
+      font-weight: bold;
+      margin-top: 40px;
+      text-align: initial;
+    }
+
+    #texto {
+      color: black;
+      font-size: 35px;
+      font-weight: medium;
+      text-align: initial;
+    }
+
+    .form-floating {
+      width: 65%;
+      align-items: center;
+    }
+
+    .btn-secondary {
+      background-color: #8a6ad7;
+      border-radius: 50px;
+    }
+
+    .anuncio {
+      background-image: url(./assets/Fondo.png);
+    }
+
+    #floatingTextareaDisabled {
+      background-color: #bdd9e9;
+    }
+
+    #floatingInputDisabled {
+      background-color: #bdd9e9;
+    }
+
+    #mujer {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .servicios {
+      width: 100%;
+      background-color: #f6f7f8;
+      padding: 50px;
+    }
+
+    #titulo-servicios {
+      color: black;
+      font-size: 60px;
+      font-weight: medium;
+      text-align: center;
+    }
+
+    .card-title {
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #servicio1 {
+      text-align: center;
+    }
+
+    #servicio2 {
+      text-align: center;
+    }
+
+    #servicio3 {
+      text-align: center;
+    }
+
+    #titulo-beneficios {
+      color: black;
+      font-size: 60px;
+      font-weight: medium;
+      text-align: center;
+    }
+
+    .container-beneficios {
+      width: 100%;
+      background-color: white;
+      padding: 50px;
+    }
+
+    #beneficio1 {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #beneficio2 {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #beneficio3 {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Heading -->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">
+        <img src="./assets/Logo-Aura.png" width="7%">
+      </span>
+    </div>
+  </nav>
+
+  <!--Anuncio promocional-->
+
+  <div class="anuncio">
+    <div class="container">
+
+      <div class="row">
+        <div class="col">
+          <h2 id="titulo">Incrementa tus ventas con nuestra estrategia de marketing</h2>
+          <h3 id="texto">Obtén una aseroría GRATIS al registrarte en la página</h3>
+
+
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled"
+              required></textarea>
+            <label for="floatingTextareaDisabled">Nombre Completo</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" required>
+            <label for="floatingInputDisabled">Correo electrónico</label>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-lg" id="registrar">Registrar</button>
+
+        </div>
+
+        <div class="col" id="mujer">
+          <img src="./assets/Mujer.png" width="80%">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!--Servicios-->
+  <br>
+  <br>
+  <div class="servicios">
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 id="titulo-servicios"> Nuestros Servicios</h2>
+        </div>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col" id="servicio1">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/Servicio-Marketing.jpg" class="card-img-top" alt="Marketing">
+              <div class="card-body">
+                <h5 class="card-title">Marketing</h5>
+                <p class="card-text">Creación de objetivos SMART y KPIs. Optimización de pauta (PPC) y estrategias.
+                  Consultoría y evaluación de resultados.
+                </p>
+                <a href="#" class="btn btn-secondary">Más info</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col" id="servicio2">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/Servicio-Diseño.jpg" class="card-img-top" alt="Diseño Gráfico">
+              <div class="card-body">
+                <h5 class="card-title">Diseño</h5>
+                <p class="card-text">Consultoría y estrategia de marca. Desarrollo de naming e identidad. Construcción
+                  de
+                  arquitectura de marca.
+                </p>
+                <a href="#" class="btn btn-secondary">Más info</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col" id="servicio3">
+            <div class="card" style="width: 18rem;">
+              <img src="./assets/Servicio-Audiovisual.jpg" class="card-img-top" alt="Audiovisual">
+              <div class="card-body">
+                <h5 class="card-title">Audiovisual</h5>
+                <p class="card-text">Dirección de arte y preproducción. Storyboards y guión. Búsqueda de locaciones,
+                  talentos y logística. Posproducción y efectos visuales.
+                </p>
+                <a href="#" class="btn btn-secondary">Más info</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!--Beneficios-->
+
+
+    <div class="container-beneficios">
+      <div class="row">
+        <div class="col">
+          <h2 id="titulo-beneficios"> Beneficios</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col" id="beneficio1">
+          <img src="./assets/Beneficio1.png" alt="marca" width="40%">
+          <h2> Reconocimiento de marca</h2>
+        </div>
+
+        <div class="col" id="beneficio2">
+          <img src="./assets/Beneficio2.png" alt="campaña" width="40%">
+          <h2> Campañas de impacto</h2>
+        </div>
+
+        <div class="col" id="beneficio3">
+          <img src="./assets/Beneficio3.png" alt="optimización" width="40%">
+          <h2> Optimización de costos</h2>
+        </div>
+
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>
